@@ -1,5 +1,7 @@
 [English](README.md) | [Русский](README.ru.md) | **中文**
 
+> 本文由模型翻译，尚未经人工审校；如有出入，以英文版为准。
+
 # mercurius-skill-creator
 
 [Mercurius](https://github.com/opencck/mercurius) 的内置技能：智能体如何创建和改进自己的技能。它从对话中捕捉意图，只询问缺少的信息，编写一份简短的 SKILL.md 并把细节放进附属文件，通过 `delegate_task` 用 2–3 个真实请求在有技能和无技能两种情况下检验草稿，调整描述使技能在该触发的地方触发，并用 `skill_save` 把它保存到参与者或项目的文件夹中。
